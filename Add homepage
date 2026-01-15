@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Crochet Patterns</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    header { text-align: center; margin-bottom: 2rem; }
+    .pattern { border: 1px solid #ddd; padding: 1rem; margin-bottom: 1rem; }
+    img { max-width: 100%; height: auto; }
+    .buy-link { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background: #f2b6d8; text-decoration: none; color: #000; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Crochet Patterns</h1>
+    <p>Original crochet designs, handmade in Denmark.</p>
+  </header>
+
+  <section class="pattern">
+    <h2>Pattern Name 1</h2>
+    <p>Short description of this pattern (yarn weight, skill level, what you make).</p>
+    <!-- Later you can upload an image and link it here -->
+    <a class="buy-link" href="#" target="_blank">Buy this pattern</a>
+  </section>
+
+  <section class="pattern">
+    <h2>Pattern Name 2</h2>
+    <p>Another pattern description.</p>
+    <a class="buy-link" href="#" target="_blank">Buy this pattern</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name · Based in Aarhus, Denmark</p>
+  </footer>
+</body>
+</html>
